@@ -1,0 +1,91 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+    /* position: fixed; */
+    width: 100vw;
+    background-color: #fff;
+    z-index: 999;
+    margin: 0 !important;
+    line-height: 2;
+}
+.logo{
+    width: 80px;
+}
+
+.btn-signin{
+    font-family: 'Lato', sans-serif;
+    outline: none;
+    font-size: 1.125em;
+    padding: 10px 5px;
+    color: #646464;
+    position: relative;
+    cursor: pointer;
+    display: inline-block;
+    text-decoration: none;
+    transition: color 0.25s ease-in-out 0s, background 0.25s ease-in-out 0s,box-shadow 0.25s ease-in-out 0s;
+    background-color: transparent;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 0px;
+    font-weight: 600;
+    padding-bottom: 0;
+    line-height: 1;
+    line-height: 1;
+}
+.btn-signin:hover{
+    
+    color: #007db8;   
+}
+.btn-register{
+    font-family: 'Lato', sans-serif;
+    outline: none;
+    font-size: 1.125em;
+    padding: 10px 5px;
+    background: #00a0e3;
+    color: #fff;
+    box-shadow: none;
+    font-weight: 600;
+    line-height: 1;
+    cursor: pointer;
+    display: inline-block;
+    text-decoration: none;
+    transition: color 0.25s ease-in-out 0s,background 0.25s ease-in-out 0s,box-shadow 0.25s ease-in-out 0s;
+    border-radius: 2px;
+    border: 0px;
+}
+.btn-register:hover{
+    background-color: #065683;
+}
+.topic, .tutor{
+    /* font-family: "Varela Round", */
+    font-family: 'Lato'
+    
+}
+.topic{
+    /* color: #8a8c8f; */
+    color: #142243;
+    font-size: 30px;
+    opacity: 0.8;
+}
+.tutor{
+    color: #5f677e;
+    font-size: 37px;
+    opacity: 0.8;
+}
+
+.logo-wrapper{
+    padding-left: 50px;
+    padding-top: 10px;
+}
+
+.btn-wrapper{
+    padding-right: 150px;
+}
+.logo-text-wrapper{
+    font-family: 'Lato';
+    position: relative;
+    bottom: 8px;
+}
